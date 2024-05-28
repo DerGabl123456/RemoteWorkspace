@@ -187,6 +187,19 @@
           "src/main/resources/data/gablssachen/advancements/asd.json"
         ]
       }
+    },
+    {
+      "name": "Fdgdhfdh",
+      "type": "achievement",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fdgdhfdh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gablssachen/advancements/fdgdhfdh.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -198,6 +211,8 @@
       "item.gablssachen.noob_face_helmet": "Noob Kopf",
       "item.gablssachen.noob_face_leggings": "Noob Hose",
       "item.gablssachen.noob_face_chestplate": "Noob Körper",
+      "advancements.fdgdhfdh.title": "Fdgdhfdh",
+      "advancements.fdgdhfdh.descr": "sad",
       "advancements.asd.title": "Asd"
     }
   },
