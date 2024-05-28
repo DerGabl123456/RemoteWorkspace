@@ -1,0 +1,209 @@
+{
+  "mod_elements": [
+    {
+      "name": "CommandsForMultiplayer",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "commands_for_multiplayer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gablssachen/procedures/CommandsForMultiplayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StartPvp",
+      "type": "command",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start_pvp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gablssachen/command/StartPvpCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "NoobFace",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noob_face",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gablssachen/models/item/noob_face_helmet.json",
+          "src/main/resources/assets/gablssachen/models/item/noob_face_chestplate.json",
+          "src/main/resources/assets/gablssachen/models/item/noob_face_leggings.json",
+          "src/main/java/net/mcreator/gablssachen/item/NoobFaceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NoobFaceLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noob_face_leggings_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gablssachen/procedures/NoobFaceLeggingsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoobFaceChestplateTickEvent",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noob_face_chestplate_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gablssachen/procedures/NoobFaceChestplateTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoobFaceHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noob_face_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gablssachen/procedures/NoobFaceHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Noobarmorhelm",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noobarmorhelm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gablssachen/recipes/noobarmorhelm.json"
+        ]
+      }
+    },
+    {
+      "name": "Noobarmorlegs",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noobarmorlegs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gablssachen/recipes/noobarmorlegs.json"
+        ]
+      }
+    },
+    {
+      "name": "Noobarmorchest",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noobarmorchest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gablssachen/recipes/noobarmorchest.json"
+        ]
+      }
+    },
+    {
+      "name": "SpectateOnDeatch",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectate_on_deatch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gablssachen/procedures/SpectateOnDeatchProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item.gablssachen.noob_face_helmet": "Noob Kopf",
+      "item.gablssachen.noob_face_leggings": "Noob Hose",
+      "item.gablssachen.noob_face_chestplate": "Noob Körper"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "gablssachen",
+    "modName": "GablsSachen",
+    "version": "1.0.0",
+    "author": "lagab, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.gablssachen"
+  },
+  "mcreatorVersion": 202400118518
+}
