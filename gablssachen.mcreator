@@ -176,28 +176,26 @@
       }
     },
     {
-      "name": "Asd",
-      "type": "achievement",
+      "name": "Leiter",
+      "type": "block",
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "asd",
+      "registry_name": "leiter",
       "metadata": {
         "files": [
-          "src/main/resources/data/gablssachen/advancements/asd.json"
-        ]
-      }
-    },
-    {
-      "name": "Fdgdhfdh",
-      "type": "achievement",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fdgdhfdh",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/gablssachen/advancements/fdgdhfdh.json"
+          "src/main/resources/assets/gablssachen/blockstates/leiter.json",
+          "src/main/resources/assets/gablssachen/models/block/leiter_bottom_left.json",
+          "src/main/java/net/mcreator/gablssachen/block/LeiterBlock.java",
+          "src/main/resources/assets/gablssachen/models/item/leiter.json",
+          "src/main/resources/assets/gablssachen/models/block/leiter_bottom_right.json",
+          "src/main/resources/assets/gablssachen/models/block/leiter_top_left.json",
+          "src/main/resources/assets/gablssachen/models/block/leiter_top_right_open.json",
+          "src/main/resources/assets/gablssachen/models/block/leiter_top_left_open.json",
+          "src/main/resources/assets/gablssachen/models/block/leiter_bottom_right_open.json",
+          "src/main/resources/data/gablssachen/loot_tables/blocks/leiter.json",
+          "src/main/resources/assets/gablssachen/models/block/leiter_top_right.json",
+          "src/main/resources/assets/gablssachen/models/block/leiter_bottom_left_open.json"
         ]
       }
     }
@@ -207,13 +205,10 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
-      "advancements.asd.descr": "asdsad",
+      "block.gablssachen.leiter": "Leiter",
       "item.gablssachen.noob_face_helmet": "Noob Kopf",
       "item.gablssachen.noob_face_leggings": "Noob Hose",
-      "item.gablssachen.noob_face_chestplate": "Noob Körper",
-      "advancements.fdgdhfdh.title": "Fdgdhfdh",
-      "advancements.fdgdhfdh.descr": "sad",
-      "advancements.asd.title": "Asd"
+      "item.gablssachen.noob_face_chestplate": "Noob Körper"
     }
   },
   "foldersRoot": {

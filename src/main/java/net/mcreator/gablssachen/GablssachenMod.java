@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.gablssachen.init.GablssachenModTabs;
 import net.mcreator.gablssachen.init.GablssachenModItems;
+import net.mcreator.gablssachen.init.GablssachenModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -39,6 +40,8 @@ public class GablssachenMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		GablssachenModBlocks.REGISTRY.register(bus);
 
 		GablssachenModItems.REGISTRY.register(bus);
 
